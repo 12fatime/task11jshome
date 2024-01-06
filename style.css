@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 50px;
+    width: 100%;
+}
+
+.bashlig {
+    position: fixed;
+    width: 100%;
+    transition: all .3s ease;
+}
+
+.one {
+    background-color: #a5c926;
+    border-bottom: 1px solid white;
+}
+
+.one .upbar {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upbar .text{
+    display: flex;
+}
+.upbar .text p{
+    color: white;
+    font-size: 10px;
+    gap: 20px;
+}
+.icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+.icons i {
+    cursor: pointer;
+}
+nav {
+    padding: 20px 0px;
+    background-color: transparent;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+}
+.third{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://assets.website-files.com/5badda2935e11303a89a461e/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third div{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.third p{
+    color: #a5c926;
+    text-align: center;
+    margin-top: 10px;
+}
+.third h1{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+.third button{
+    width: 120px;
+    height: 40px;
+    background-color: #a5c926;
+    cursor: pointer;
+    border-radius: 20px; 
+    border: 1px solid #a5c926;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.four{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.four div{
+    width: 400px;
+    height: 250px;
+    background-color: blue;
+}
